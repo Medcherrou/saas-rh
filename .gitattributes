@@ -1,0 +1,16 @@
+# Gérer automatiquement les fins de ligne
+* text=auto
+
+# Forcer LF pour les fichiers de code
+*.java text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+
+# Garder CRLF pour les fichiers batch Windows
+*.cmd text eol=crlf
+*.bat text eol=crlf
